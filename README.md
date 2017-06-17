@@ -1,7 +1,7 @@
 # spring-boot-study-ly
 spring boot学习项目
 
-###2017-6-17
+### 2017-6-17
 * Spring boot项目部署
 * Spring boot项目修改默认端口
 * Spring boot项目打成war包
@@ -9,7 +9,7 @@ spring boot学习项目
 * Spring boot项目profiles多环境配置
 
 ---
-######参考资料
+###### 参考资料
 超简易入门，用Spring boot 构件web，输出hello world
 [Spring Boot快速入门](http://www.jianshu.com/p/d24bceea7665)
 
