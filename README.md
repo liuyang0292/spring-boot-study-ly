@@ -22,6 +22,11 @@ good again profile：[Spring boot(4)-应用打包部署](http://blog.csdn.net/hg
 ### 2017-6-19
 
 * Spring boot项目profiles多环境配置
+*  多配置文件必须放在resources根目录
+*  多配置文件命名： application-{profile}.properties
+*  application.properties 为默认配置，可覆盖
+*  application.properties 中设置 spring.profiles.active=dev ，将使用profile为dev的配置
+*  application.properties 中设置 spring.profiles.active=dev ，若dev中对应属性为空或无对应属性，则使用application.properties默认配置
 
 ###### 参考资料
 文章后面部分不错：[51. spring boot属性文件之多环境配置【从零开始学Spring Boot】](http://412887952-qq-com.iteye.com/blog/2307104)
