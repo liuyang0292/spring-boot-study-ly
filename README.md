@@ -33,8 +33,12 @@ good again profile：[Spring boot(4)-应用打包部署](http://blog.csdn.net/hg
 
 >  application.properties 中设置 spring.profiles.active=dev ，若dev中对应属性为空或无对应属性，则使用application.properties默认配置
 
+* Spring boot集成hibernate+mysql
+
 
 ###### 参考资料
 文章后面部分不错：[51. spring boot属性文件之多环境配置【从零开始学Spring Boot】](http://412887952-qq-com.iteye.com/blog/2307104)
+
+集成jpa hibernate：[SpringBoot整合hibernate](http://blog.csdn.net/supervictim/article/details/54582083)
 
 ---
