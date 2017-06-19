@@ -11,6 +11,9 @@ public class Response<T> {
 
     private Integer code;
 
+    public Response(){
+    }
+
     public Response(T data){
         this.data=data;
     }
