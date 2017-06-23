@@ -73,6 +73,14 @@
 			<artifactId>mysql-connector-java</artifactId>
 		</dependency>
 
+		<!--引入Actuator依赖，启用Actuator端点-->
+		<!--提供Web端点，方便开发者了解Spring boot 程序运行时的内部情况-->
+		<!--具体可获得配置信息、运行时度量、应用信息-->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-actuator</artifactId>
+		</dependency>
+
 
 	</dependencies>
 

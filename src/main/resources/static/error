@@ -1,0 +1,12 @@
+<%@
+        page language="java" contentType="text/html" pageEncoding="UTF-8"%>
+<%@
+        page isErrorPage="true"%>
+<html>
+<head>
+    <title>lyy</title>
+</head>
+<body>
+<h1>程序出现了错误</h1>
+</body>
+</html>
