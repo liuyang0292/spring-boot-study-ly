@@ -1,5 +1,17 @@
-# spring-boot-study-ly
+#pring-boot-study-ly
 spring boot学习项目
+
+###  git tips
+```
+git stash
+git pull origin master
+git stash pop
+git add *
+git commit -m "i am comment"
+git push -u origin master
+```
+
+---
 
 ### 2017-6-17
 * Spring boot项目部署
