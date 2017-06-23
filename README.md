@@ -42,3 +42,26 @@ good again profile：[Spring boot(4)-应用打包部署](http://blog.csdn.net/hg
 集成jpa hibernate：[SpringBoot整合hibernate](http://blog.csdn.net/supervictim/article/details/54582083)
 
 ---
+### 2017-6-23
+
+* Spring boot项目配置文件取值
+
+>  配置文件@Value取值
+
+>  配置文件Environment取值
+
+>  配置文件@ConfigurationProperties取值 locations属性不可用
+
+* Spring boot启用Actuator，了解Spring boot 运行时项目的配置信息、运行时度量、应用信息，
+
+>  pom中配置Actuator依赖
+
+>  关闭端口鉴权 management.security.enabled=false
+
+###### 参考资料
+[Springboot 之 自定义配置文件及读取配置文件](http://blog.csdn.net/zsl129/article/details/52880798)
+
+[Spring Boot 配置优先级顺序](http://www.cnblogs.com/softidea/p/5759180.html)
+
+Actuator配置依赖后，要配置权限设置[关于springboot-actuator监控的401无权限访问](http://blog.csdn.net/u013076044/article/details/60780151)
+---
